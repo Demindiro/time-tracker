@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Time Tracker</string>
+    <string name="right_now_im">Right now I\'m</string>
+    <string name="view_history">View history</string>
+    <string name="add_activity">Add activity</string>
+    <string name="history">History</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="time">Time</string>
+    <string name="activity">Activity</string>
+</resources>
