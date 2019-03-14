@@ -29,9 +29,9 @@ class HistoryActivity : AppCompatActivity() {
         } catch(ex: FileNotFoundException) {
             return
         }
-        var formatDate = SimpleDateFormat("dd/mm HH:mm")
+        var formatDate = SimpleDateFormat("dd/MM HH:mm")
         for (line in lines) {
-            var datestr = line.substring(line.lastIndexOf(' ') + 1, line.length - 1)
+            var datestr = line.substring(line.lastIndexOf(' ') + 1, line.length)
             var date = Date(datestr.toLong())
             if (end != null && time != null) {
                 end .text = formatDate.format(date)
